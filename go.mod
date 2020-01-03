@@ -1,3 +1,3 @@
-module github.com/pion/logging
+module github.com/yiyilive/logging
 
 go 1.12

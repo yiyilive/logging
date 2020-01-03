@@ -190,10 +190,10 @@ func NewDefaultLoggerFactory() *DefaultLoggerFactory {
 	}
 
 	for name, level := range logLevels {
-		env := os.Getenv(fmt.Sprintf("PION_LOG_%s", name))
+		env := os.Getenv(fmt.Sprintf("yiyilive_LOG_%s", name))
 
 		if env == "" {
-			env = os.Getenv(fmt.Sprintf("PIONS_LOG_%s", name))
+			env = os.Getenv(fmt.Sprintf("yiyiliveS_LOG_%s", name))
 		}
 
 		if env == "" {
